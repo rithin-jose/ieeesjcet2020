@@ -7,7 +7,72 @@
     margin: 0;
 }
 
+/* ******************************************************************************************************
+                                        Main Nav Styles
+********************************************************************************************************/
+.nav-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    padding: 40px 0;
+}
 
+.nav-brand{
+    display: inline-block;
+}
+
+.nav-list{
+    float: right;
+}
+
+.nav-list li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* 
+
+
+.site-header .header-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    padding: 40px 0;
+  }
+  
+  .header-bar .site-branding {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  
+  .header-bar .site-branding a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+  }
+  .classy-navbar {
+  height: 42px;
+  }
+.header-area.sticky {
+    background-color: #000000;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  }
+  .header-area.sticky .classy-navbar {
+    height: 75px;
+  }
+  
+ */
 
 section{
     height: 100vh;
