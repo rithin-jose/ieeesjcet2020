@@ -8,6 +8,11 @@
     color: #ffffff;
     padding: 0px;
     margin: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
 }
 .meta-nav p{
     margin-bottom: 0;
@@ -56,9 +61,3 @@
     color: #fff;
     text-decoration: underline;
 }
-
-
-/* 
-typo min 12px
-banner min 30 px
-*/
