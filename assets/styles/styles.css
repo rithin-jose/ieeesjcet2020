@@ -19,7 +19,7 @@ section{
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 1020;
     width: 100%;
     padding-top: 40px;
  
@@ -111,18 +111,28 @@ section{
   top: 50%;
   left: 0%;
   color: #fff !important;
-  padding: 30px !important;
-  transform: translate(-50%,-50%);
-  
+  transform: translate(0%,-50%);
 }
-
+.owl-carousel .owl-nav button.owl-prev span{
+  display: inline-block;
+  height:60px;
+  width: 50px;
+  font-size: xx-large;
+}
+/* padding: 30px !important; */
 .owl-carousel .owl-nav button.owl-next{
   position: absolute;
   top: 50%;
   right:0%;
-  float: right;
-  color: #fff;
-  transform: translate(-50%,-50%); 
+
+  color: #fff !important;
+  transform: translate(0%,-50%); 
+}
+.owl-carousel .owl-nav button.owl-next span{
+  display: inline-block;
+  height:60px;
+  width: 50px;
+  font-size: xx-large;
 }
 .owl-theme .owl-dots {
   position: absolute;
@@ -136,8 +146,6 @@ section{
 .owl-theme .owl-nav [class*='owl-'] {
   color: #FFF;
   font-size: 14px;
-  margin: 5px;
-  padding: 4px 7px;
   background: #D6D6D6;
   display: inline-block;
   cursor: pointer;
@@ -154,9 +162,9 @@ section{
   cursor: default; 
 }
 
-.owl-theme .owl-nav.disabled + .owl-dots {
+/* .owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 10px; 
-}
+} */
 
 
 .owl-theme .owl-dots .owl-dot {
@@ -189,8 +197,6 @@ section{
 .owl-theme .owl-nav [class*='owl-'] {
   color: #FFF;
   font-size: 14px;
-  margin: 5px;
-  padding: 4px 7px;
   background: #D6D6D6;
   display: inline-block;
   cursor: pointer;
