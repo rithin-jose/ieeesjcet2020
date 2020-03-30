@@ -105,13 +105,24 @@ section{
   color: #fff;
   transform: translate(-50%,-50%);
 }
-.owl-theme .owl-nav {
+
+.owl-carousel .owl-nav button.owl-prev{
   position: absolute;
   top: 50%;
-  left: 50%;
-  color: #fff;
+  left: 0%;
+  color: #fff !important;
+  padding: 30px !important;
   transform: translate(-50%,-50%);
-  -webkit-tap-highlight-color: transparent; 
+  
+}
+
+.owl-carousel .owl-nav button.owl-next{
+  position: absolute;
+  top: 50%;
+  right:0%;
+  float: right;
+  color: #fff;
+  transform: translate(-50%,-50%); 
 }
 .owl-theme .owl-dots {
   position: absolute;
