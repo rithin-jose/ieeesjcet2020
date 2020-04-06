@@ -11,6 +11,20 @@ section{
     height: 100vh;
 }
 
+ /* Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+ Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+ Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... } */
+
+
+
 
 /* ******************************************************************************************************
                                         Main Nav Styles
@@ -56,45 +70,15 @@ section{
     text-decoration: none;
     color: #fff;
 }
+.hamburger{
+  display:none;
+}
 
-
-/* 
-
-
-.site-header .header-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    width: 100%;
-    padding: 40px 0;
+@media only screen and (max-width: 990px){
+  .nav-wrapper {
+    padding-top: 0px;
   }
-  
-  .header-bar .site-branding {
-    margin-bottom: 0;
-    font-size: 30px;
-    font-weight: 800;
-  }
-  
-  .header-bar .site-branding a {
-    color: hsl(0, 0%, 100%);
-    text-decoration: none;
-  }
-  .classy-navbar {
-  height: 42px;
-  }
-.header-area.sticky {
-    background-color: #000000;
-    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
-    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
-  }
-  .header-area.sticky .classy-navbar {
-    height: 75px;
-  }
-  
- */
-
-
+}
 /* ******************************************************************************************************
                                         Home Styles
 ********************************************************************************************************/
@@ -105,6 +89,7 @@ section{
   color: #fff;
   transform: translate(-50%,-50%);
 }
+
 
 .owl-carousel .owl-nav button.owl-prev{
   position: absolute;
@@ -119,7 +104,7 @@ section{
   width: 50px;
   font-size: xx-large;
 }
-/* padding: 30px !important; */
+
 .owl-carousel .owl-nav button.owl-next{
   position: absolute;
   top: 50%;
@@ -134,6 +119,7 @@ section{
   width: 50px;
   font-size: xx-large;
 }
+
 .owl-theme .owl-dots {
   position: absolute;
   top: 95%;
@@ -157,15 +143,11 @@ section{
   color: #FFF;
   text-decoration: none; 
 }
+
 .owl-theme .owl-nav .disabled {
   opacity: 0.25;
   cursor: default; 
 }
-
-/* .owl-theme .owl-nav.disabled + .owl-dots {
-  margin-top: 10px; 
-} */
-
 
 .owl-theme .owl-dots .owl-dot {
   display: inline-block;
@@ -208,6 +190,7 @@ section{
   color: #FFF;
   text-decoration: none; 
 }
+
 .owl-theme .owl-nav .disabled {
   opacity: 0.5;
   cursor: default; 
@@ -245,7 +228,6 @@ section{
 .owl-carousel .owl-item img{
   height: 100vh;
 }
-
 
 /* ******************************************************************************************************
                                         Home Styles
